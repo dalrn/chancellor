@@ -1,0 +1,18 @@
+=== PIMC vs BASELINE, 3 players, 4000 pairs ===
+pimc  vs  baseline
+  pairs           4000  (8000 rounds)  in 1396.5s
+  tokens/round    0.4956  vs  0.4194
+  win rate        0.3362  vs  0.3164
+  paired diff     +0.0762 tokens  +/- 0.0232  (95%)
+  paired win diff +0.0199  +/- 0.0164
+  VERDICT         pimc is ahead (interval excludes 0)
+
+=== PIMC vs BASELINE, 4 players, 4000 pairs ===
+pimc  vs  baseline
+  pairs           4000  (8000 rounds)  in 1358.8s
+  tokens/round    0.4274  vs  0.3315
+  win rate        0.2604  vs  0.2296
+  paired diff     +0.0959 tokens  +/- 0.0207  (95%)
+  paired win diff +0.0307  +/- 0.0150
+  VERDICT         pimc is ahead (interval excludes 0)
+

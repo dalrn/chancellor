@@ -1,0 +1,9 @@
+=== PIMC at 0.3s budget (6x the arena config) vs BASELINE ===
+pimc  vs  baseline
+  pairs           300  (600 rounds)  in 491.6s
+  tokens/round    0.6600  vs  0.6200
+  win rate        0.4783  vs  0.5233
+  paired diff     +0.0400 tokens  +/- 0.0974  (95%)
+  paired win diff -0.0450  +/- 0.0742
+  VERDICT         INCONCLUSIVE at this sample size -- the interval includes 0
+                  ~7116 pairs would be needed to detect a 0.02 token/round edge

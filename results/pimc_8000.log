@@ -1,0 +1,8 @@
+pimc  vs  baseline
+  pairs           8000  (16000 rounds)  in 2240.2s
+  tokens/round    0.6382  vs  0.6298
+  win rate        0.4637  vs  0.5374
+  paired diff     +0.0084 tokens  +/- 0.0195  (95%)
+  paired win diff -0.0737  +/- 0.0145
+  VERDICT         INCONCLUSIVE at this sample size -- the interval includes 0
+                  ~7638 pairs would be needed to detect a 0.02 token/round edge

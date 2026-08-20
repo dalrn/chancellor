@@ -1,0 +1,17 @@
+=== reference: BeliefAgent vs BASELINE, 4p, 4000 pairs ===
+belief  vs  baseline
+  pairs           4000  (8000 rounds)  in 371.3s
+  tokens/round    0.3910  vs  0.3506
+  win rate        0.2691  vs  0.2385
+  paired diff     +0.0404 tokens  +/- 0.0185  (95%)
+  paired win diff +0.0306  +/- 0.0136
+  VERDICT         belief is ahead (interval excludes 0)
+
+=== mirror check: PIMC vs BeliefAgent, 4p, 4000 pairs ===
+pimc  vs  belief
+  pairs           4000  (8000 rounds)  in 1635.5s
+  tokens/round    0.3811  vs  0.3101
+  win rate        0.2389  vs  0.2199
+  paired diff     +0.0710 tokens  +/- 0.0199  (95%)
+  paired win diff +0.0190  +/- 0.0140
+  VERDICT         pimc is ahead (interval excludes 0)

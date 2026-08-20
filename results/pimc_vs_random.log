@@ -1,0 +1,8 @@
+=== sanity: PIMC vs RANDOM (must crush) ===
+pimc  vs  random
+  pairs           400  (800 rounds)  in 109.8s
+  tokens/round    0.9563  vs  0.3625
+  win rate        0.7037  vs  0.3000
+  paired diff     +0.5938 tokens  +/- 0.0819  (95%)
+  paired win diff +0.4037  +/- 0.0600
+  VERDICT         pimc is ahead (interval excludes 0)
